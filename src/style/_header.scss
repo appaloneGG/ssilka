@@ -1,0 +1,39 @@
+.header {
+  background-color: #fff;
+  padding: 15px 0;
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__nav {
+      display: flex;
+      column-gap: 22px;
+    }
+
+    &__btns {
+      display: flex;
+      column-gap: 11px;
+    }
+
+    .nav__item {
+      list-style: none;
+    }
+
+    .nav__link {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 21px;
+      /* identical to box height, or 150% */
+
+      letter-spacing: 1px;
+      text-transform: uppercase;
+
+      color: #000000;
+      text-decoration: none;
+    }
+  }
+}
